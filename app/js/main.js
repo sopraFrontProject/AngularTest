@@ -63,7 +63,9 @@ require([
     'routes',
 
     "components/main/main_directive",
-    "components/main/main_controller"
+    "components/main/main_controller",
+    "components/header/header_directive",
+    "components/header/header_controller"
 
 
 ],function(){
