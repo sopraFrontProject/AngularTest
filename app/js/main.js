@@ -62,8 +62,8 @@ require([
     'run',
     'routes',
 
-    "states/main/main_directive",
-    "states/main/main_controller"
+    "components/main/main_directive",
+    "components/main/main_controller"
 
 
 ],function(){
