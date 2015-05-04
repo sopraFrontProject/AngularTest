@@ -65,7 +65,10 @@ require([
     "components/main/main_directive",
     "components/main/main_controller",
     "components/footer/footer_directive",
-    "components/footer/footer_controller"
+    "components/footer/footer_controller",
+    "components/header/header_directive",
+    "components/header/header_controller"
+
 
 
 ],function(){
