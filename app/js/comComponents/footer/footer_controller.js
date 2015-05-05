@@ -12,7 +12,7 @@ define([
         activate();
 
         function activate() {
-         vm_footer.texto= "este es el footer";
+         vm_footer.texto= "this is the footer";
         }
     }
 

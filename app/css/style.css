@@ -1,0 +1,37 @@
+
+
+h1,h2,h3{
+    font-weight: bold;
+}
+
+i{
+    padding-left: 10px;
+
+}
+
+.fa-facebook-official{
+    color: darkblue;
+}
+
+.fa-twitter{
+    color: cornflowerblue;
+}
+
+.fa-google-plus{
+    color: red;
+}
+
+.fa:hover{
+    color: black;
+}
+
+img{
+    width: 50%;
+
+}
+
+@media(max-width: 767px){
+    .logo{
+        display: none;
+    }
+}

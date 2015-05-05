@@ -62,12 +62,12 @@ require([
     'run',
     'routes',
 
-    "components/main/main_directive",
-    "components/main/main_controller",
-    "components/footer/footer_directive",
-    "components/footer/footer_controller",
-    "components/header/header_directive",
-    "components/header/header_controller"
+    "states/main/main_directive",
+    "states/main/main_controller",
+    "comComponents/footer/footer_directive",
+    "comComponents/footer/footer_controller",
+    "comComponents/header/header_directive",
+    "comComponents/header/header_controller"
 
 
 

@@ -3,7 +3,7 @@
  */
 define([
     'app',
-    'text!components/footer/footer_view.html'
+    'text!comComponents/footer/footer_view.html'
 ],function(app,template){
     'use strict';
 

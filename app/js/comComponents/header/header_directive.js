@@ -1,6 +1,6 @@
 define([
     'app',
-    'text!components/header/header_view.html'
+    'text!comComponents/header/header_view.html'
 ],function(app, template){
     'use strict';
 

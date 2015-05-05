@@ -1,6 +1,6 @@
 define([
     'app',
-    'text!components/main/main.html'
+    'text!states/main/main.html'
 ],function(app, template){
     'use strict';
 
