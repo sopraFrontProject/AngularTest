@@ -12,8 +12,8 @@ define([
             var _name = 'Brian';
             vm_main.user = {
                 name: function (newName) {
-                    debugger;
-                    return arguments.length ? (_name = newName) : _name;
+
+                    return _name = newName;
                 }
 
             };
