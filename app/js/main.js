@@ -63,12 +63,12 @@ require([
     'routes',
 
     "states/main/main_directive",
-    "states/main/main_controller"
-    /*"comComponents/footer/footer_directive",
+    "states/main/main_controller",
+    "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",
     "comComponents/header/header_directive",
     "comComponents/header/header_controller"
-*/
+
 
 
 ],function(){

@@ -4,7 +4,7 @@ define([
 ],function(app, template){
     'use strict';
 
-    app.directive('ipMainDirective', [
+    return app.directive('ipMainDirective', [
         function(){
             return {
                 restrict: 'EA',

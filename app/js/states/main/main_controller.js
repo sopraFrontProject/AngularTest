@@ -4,7 +4,7 @@ define([
 ], function(app) {
     'use strict';
 
-    app.controller('ipMainController', [
+    return app.controller('ipMainController', [
         '$scope',
         function($scope){
             //el $scope en nuestro ejemplo no lo usaremos, solo es para medios practicos

@@ -6,19 +6,16 @@ define([
 ], function(app) {
     'use strict';
 
-    function footerController($scope) {
-        var vm_footer = this;
+    return app.controller('ipFooterController', [
+        '$scope',
+        function($scope){
 
-        activate();
+            this.texto= "this is the footer";
 
-        function activate() {
-         vm_footer.texto= "this is the footer";
-        }
-    }
+            activate();
 
-    footerController.$inject = [
-        '$scope'
-    ];
+            function activate() {
 
-    return app.controller('ipFooterController', footerController);
-})
+            }
+        }]);
+});

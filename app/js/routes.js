@@ -5,7 +5,7 @@ define([
     'use strict';
 
 
-    app.config([
+    return app.config([
         '$locationProvider',
         '$stateProvider',
         '$urlRouterProvider',
