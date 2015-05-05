@@ -11,7 +11,7 @@ define([
                 template: template,
                 scope: {},
                 controller: 'ipMainController',
-                /*controllerAs: 'vm_main',*/
+                controllerAs: 'vm_main',
                 bindController: true
             };
         }])
