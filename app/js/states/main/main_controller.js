@@ -5,29 +5,29 @@ define([
 
     function mainController($scope) {
         var vm_main = this;
+
         function activate() {
             vm_main.test = "Hola";
+
+            var _name = 'Brian';
+            vm_main.user = {
+                name: function (newName) {
+                    debugger;
+                    return arguments.length ? (_name = newName) : _name;
+                }
+
+            };
+
+            activate();
+
+
         }
-
-        activate();
     }
-
     mainController.$inject = [
         '$scope'
     ];
 
 
-    return app.controller('ipMainController', ['$scope', mainController]);
+    return app.controller('ipMainController', mainController);
 })
 
-/*
-app.module('x').controller('ipMainController', ['$scope', function($scope) {
-
-    function activate() {
-        this.test = "This is an example";
-    }
-
-    activate();
-}])
-
-return app.module('x').controller('ipMainController'); */
