@@ -8,7 +8,7 @@ define([
 
         function activate() {
             vm_main.test = "Hola";
-
+/*
             var _name = 'Brian';
             vm_main.user = {
                 name: function (newName) {
@@ -16,7 +16,7 @@ define([
                     return arguments.length ? (_name = newName) : _name;
                 }
 
-            };
+            };*/
 
             activate();
 
