@@ -9,14 +9,14 @@ define([
         function activate() {
             vm_main.test = "Hola";
 
-            var _name = 'Brian';
+           /* var _name = 'Brian';
             vm_main.user = {
                 name: function (newName) {
 
                     return _name = newName;
                 }
 
-            };
+            };*/
 
             activate();
 

@@ -1,0 +1,11 @@
+
+<form name="userForm">
+    <Label>Name:
+        <input type="text" name="newName"
+               ng-model="vm_form.name" />
+
+    </Label>
+    <button class="btn-primary" ng-click="vm_form.addName()">Add</button>
+</form>
+<h3>User name: <span>{{vm_form.newName}}</span></h3>
+
