@@ -106,3 +106,9 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+# esto es cuando ya se ha generado el proyecto para por ejemplo el area de desarrollo
+dev
+
+# esto es cuando ya se ha generado el proyecto para por ejemplo el area de desarrollo
+prod
