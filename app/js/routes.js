@@ -22,6 +22,18 @@ define([
                     }
                 }
             })
+
+                .state('options',{
+                    url: '/options',
+
+                    views:{
+                        'content@':{
+                            template: '<ip-options-directive></ip-options-directive>'
+                        }
+                    }
+                })
+
+
     }
 
     configRoutes.$inject = [

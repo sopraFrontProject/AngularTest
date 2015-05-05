@@ -64,6 +64,8 @@ require([
 
     "states/main/main_directive",
     "states/main/main_controller",
+    "states/options/options_directive",
+    "states/options/options_controller",
     "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",
     "comComponents/header/header_directive",
