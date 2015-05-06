@@ -1,38 +1,29 @@
-
-
-h1,h2,h3{
-    font-weight: bold;
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
 }
 
-i{
-    padding-left: 10px;
-
+.success {
+  border-color: green;
 }
 
-.fa-facebook-official{
-    color: darkblue;
+.error {
+  border-color: red;
 }
 
-.fa-twitter{
-    color: cornflowerblue;
+.warning {
+  border-color: yellow;
 }
 
-.fa-google-plus{
-    color: red;
+.container {
+  width: 100%;
 }
 
-.fa:hover{
-    color: black;
+.form {
+  width: 50%;
 }
 
-img{
-    width: 50%;
-
-
-}
-
-@media(max-width: 767px){
-    .logo{
-        display: none;
-    }
+.button {
+  color: red;
 }
