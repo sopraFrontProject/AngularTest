@@ -7,26 +7,32 @@
     <h4>{{vm_main.test}}</h4>
 
 </div>
+<hr>
+<div class="row">
+    <div class="col-sm-6">
+        <form name="userForm">
+            <Label>Name:
+                <input type="text" name="userName"
+                       ng-model="vm_main.user.name" />
 
-<div>
-    <form name="userForm">
-        <Label>Name:
-            <input type="text" name="userName"
-                   ng-model="vm_main.user.name" />
+            </Label>
+        </form>
+        <h3>User name: <span ng-bind="vm_main.user.name"></span></h3>
+    </div>
 
-        </Label>
-    </form>
-    <h3>User name: <span ng-bind="vm_main.user.name"></span></h3>
+    <div class="col-sm-6">
+        <ip-form-directive></ip-form-directive>
+    </div>
 </div>
-
-<hr>
-<ip-form-directive></ip-form-directive>
 <hr>
 
-<ip-contacts-directive></ip-contacts-directive>
+<div class="row">
+    <div class="col-sm-6">
+        <ip-contacts-directive></ip-contacts-directive>
+    </div>
+    <div class="col-sm-6">
+        <ip-tasks-directive></ip-tasks-directive>
+    </div>
+</div>
 <hr>
-
-<ip-tasks-directive></ip-tasks-directive>
-<hr>
-
 <ip-footer-directive></ip-footer-directive>
