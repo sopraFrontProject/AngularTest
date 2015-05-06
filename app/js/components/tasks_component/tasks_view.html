@@ -1,0 +1,20 @@
+<h2>my tasks</h2>
+
+<div>
+    <ul ng-repeat="task in vm_tasks.tasks">
+        <li>
+            <h3>{{task.name}}</h3>
+        </li>
+    </ul>
+
+    <h3>{{task.name}}</h3>
+</div>
+<form name="taskForm">
+    <Label>Name:
+        <input type="text" name="newTask"
+               ng-model="vm_tasks.task" />
+
+    </Label>
+    <button class="btn-primary" ng-click="vm_tasks.addTask()">Add</button>
+</form>
+

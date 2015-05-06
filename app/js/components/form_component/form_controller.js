@@ -7,11 +7,11 @@ define([
     'use strict';
 
     function formController($scope) {
-            var vm_form = this;
-            vm_form.name = "";
-            vm_form.addName = function(){
-                vm_form.newName = vm_form.name;
-            }
+        var vm_form = this;
+        vm_form.name = "";
+        vm_form.addName = function(){
+            vm_form.newName = vm_form.name;
+        }
     }
 
     formController.$inject = [

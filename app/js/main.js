@@ -79,6 +79,9 @@ require([
     "components/contacts_component/contacts_controller",
     "components/contacts_component/contacts_directive",
 
+    "components/tasks_component/tasks_controller",
+    "components/tasks_component/tasks_directive",
+
     "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",
     "comComponents/header/header_directive",
