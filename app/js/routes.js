@@ -12,7 +12,7 @@ define([
         $stateProvider
 
             .state('myApp', {
-                url: '/',
+                url: '/myApp',
 
                 views: {
                     'content@': {
@@ -23,16 +23,26 @@ define([
                 }
             })
 
-                .state('options',{
-                    url: '/options',
+            .state('options',{
+                url: '/',
 
-                    views:{
-                        'content@':{
-                            template: '<ip-options-directive></ip-options-directive>'
-                        }
+                views:{
+                    'content@':{
+                        template: '<ip-options-directive></ip-options-directive>'
                     }
-                })
+                }
+            })
 
+
+            .state('info',{
+                url: '/',
+
+                views:{
+                    'content@' :{
+                        template:'<ip-info-directive></ip-info-directive>'
+                    }
+                }
+            })
 
     }
 

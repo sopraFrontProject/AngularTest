@@ -82,6 +82,9 @@ require([
     "components/tasks_component/tasks_controller",
     "components/tasks_component/tasks_directive",
 
+    "components/combo_component/combo_controller",
+    "components/combo_component/combo_directive",
+
     "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",
     "comComponents/header/header_directive",
