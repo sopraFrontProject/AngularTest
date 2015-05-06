@@ -64,8 +64,12 @@ require([
 
     "states/main/main_directive",
     "states/main/main_controller",
+
     "states/options/options_directive",
     "states/options/options_controller",
+
+    "states/info/info_directive",
+    "states/info/info_controller",
 
     "components/hello_component/hello_directive",
     "components/hello_component/hello_controller",
@@ -84,6 +88,12 @@ require([
 
     "components/combo_component/combo_controller",
     "components/combo_component/combo_directive",
+
+    "components/info_form_component/info_form_controller",
+    "components/info_form_component/info_form_directive",
+    "components/info_form_component/info_form_factory",
+
+
 
     "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",

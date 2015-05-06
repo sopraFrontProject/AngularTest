@@ -12,7 +12,7 @@ define([
         $stateProvider
 
             .state('myApp', {
-                url: '/myApp',
+                url: '/',
 
                 views: {
                     'content@': {
@@ -24,7 +24,7 @@ define([
             })
 
             .state('options',{
-                url: '/',
+                url: '/options',
 
                 views:{
                     'content@':{
@@ -35,7 +35,7 @@ define([
 
 
             .state('info',{
-                url: '/',
+                url: '/info',
 
                 views:{
                     'content@' :{
