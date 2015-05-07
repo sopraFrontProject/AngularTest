@@ -14,6 +14,10 @@ define([
 
         });
 
+        vm_son.sendMessage = function(message){
+            vm_son.newMessage = message;
+            $scope.$emit("myMessage", message);
+        }
 
     }
 

@@ -3,7 +3,7 @@
     <h1>This is the father component</h1>
 
     <form name="messageForm">
-        <Label>Message:
+        <Label>Message to my brother:
             <input type="text" name="newMessage"
                    ng-model="message" />
 
@@ -11,8 +11,9 @@
         <button class="btn-primary" ng-click="vm_father.sendMessage(message)">Add</button>
     </form>
 
-    <h3>Father message: <span ng-bind="message"></span></h3>
+    <h3>Father message with binding: <span ng-bind="message"></span></h3>
     <h3>Father message without binding: {{vm_father.newMessage}}</h3>
+    <h3>Messaga received from the son: {{vm_father.sonMessage}}</h3>
     <ip-son-directive></ip-son-directive>
 
 

@@ -9,13 +9,17 @@ define([
     function fatherController($scope) {
         var vm_father = this;
        vm_father.message="";
-
-
+        vm_father.sonMessage = "";
 
         vm_father.sendMessage = function(message){
             vm_father.newMessage = message;
             $scope.$broadcast("myMesssage",message);
+
         }
+
+        $scope.$on("myMessage", function(data, message){
+           vm_father.sonMessage = message;
+        });
     }
 
 
