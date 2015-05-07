@@ -9,7 +9,6 @@ define([
         function activate() {
             vm_main.test = "Hola";
 
-
         }
 
         activate();

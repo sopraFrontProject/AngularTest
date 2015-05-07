@@ -44,6 +44,16 @@ define([
                 }
             })
 
+            .state('communication',{
+                url: '/communication',
+
+                views:{
+                    'content@' :{
+                        template:'<ip-communication-directive></ip-communication-directive>'
+                    }
+                }
+            })
+
     }
 
     configRoutes.$inject = [

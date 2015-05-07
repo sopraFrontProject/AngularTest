@@ -34,6 +34,14 @@ img{
     border:solid;
 }
 
+#father{
+    background-color: beige
+}
+
+#son{
+    background-color: honeydew;
+}
+
 @media(max-width: 767px){
     .logo{
         display: none;

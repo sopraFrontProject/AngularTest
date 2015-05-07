@@ -71,29 +71,37 @@ require([
     "states/info/info_directive",
     "states/info/info_controller",
 
+    "states/communication/communication_directive",
+    "states/communication/communication_controller",
+
+    "components/combo_component/combo_controller",
+    "components/combo_component/combo_directive",
+
+
+    "components/contacts_component/contacts_controller",
+    "components/contacts_component/contacts_directive",
+
+    "components/father_component/father_controller",
+    "components/father_component/father_directive",
+
+    "components/form_component/form_controller",
+    "components/form_component/form_directive",
+
     "components/hello_component/hello_directive",
     "components/hello_component/hello_controller",
 
     "components/image_component/image_directive",
     "components/image_component/image_controller",
 
-    "components/form_component/form_controller",
-    "components/form_component/form_directive",
-
-    "components/contacts_component/contacts_controller",
-    "components/contacts_component/contacts_directive",
-
-    "components/tasks_component/tasks_controller",
-    "components/tasks_component/tasks_directive",
-
-    "components/combo_component/combo_controller",
-    "components/combo_component/combo_directive",
-
     "components/info_form_component/info_form_controller",
     "components/info_form_component/info_form_directive",
     "components/info_form_component/info_form_factory",
 
+    "components/son_component/son_controller",
+    "components/son_component/son_directive",
 
+    "components/tasks_component/tasks_controller",
+    "components/tasks_component/tasks_directive",
 
     "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",
