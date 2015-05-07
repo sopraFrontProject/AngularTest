@@ -13,13 +13,14 @@ define([
 
         vm_father.sendMessage = function(message){
             vm_father.newMessage = message;
-            $scope.$broadcast("myMesssage",message);
+            $scope.$broadcast("myFatherMessage",message);
 
         }
 
         $scope.$on("myMessage", function(data, message){
            vm_father.sonMessage = message;
         });
+
     }
 
 

@@ -9,8 +9,14 @@ define([
     function sonController($scope) {
         var vm_son = this;
         vm_son.newName = "";
-        $scope.$on("myMesssage", function(data,message) {
+        vm_son.brotherMessage = "";
+        $scope.$on("myFatherMessage", function(data,message) {
             vm_son.newName = message;
+
+        });
+
+        $scope.$on("myBrotherMessage", function(data,message) {
+            vm_son.brotherMessage = message;
 
         });
 

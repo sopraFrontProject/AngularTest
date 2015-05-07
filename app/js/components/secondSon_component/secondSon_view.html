@@ -1,0 +1,16 @@
+<div id="son2">
+    <h2>This is the son2 component</h2>
+    <h3 ng-model="message">Message from my father: {{vm_son2.newName}}</span></h3>
+
+
+
+    <form name="messageForm">
+        <Label>Message to my father:
+            <input type="text" name="sonMessage"
+                   ng-model="sonMessage" />
+
+        </Label>
+        <button class="btn-primary" ng-click="vm_son2.sendMessage(sonMessage)">Send2Father</button>
+        <button class="btn-primary" ng-click="vm_son2.sendMessageBrother(sonMessage)">Send2Brother</button>
+    </form>
+</div>

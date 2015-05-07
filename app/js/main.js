@@ -97,6 +97,9 @@ require([
     "components/info_form_component/info_form_directive",
     "components/info_form_component/info_form_factory",
 
+    "components/secondSon_component/secondSon_controller",
+    "components/secondSon_component/secondSon_directive",
+
     "components/son_component/son_controller",
     "components/son_component/son_directive",
 
