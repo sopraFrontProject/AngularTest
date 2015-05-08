@@ -1,16 +1,13 @@
+<h2>This is the son1 component</h2>
+<h3 ng-model="message">Message from my father: {{vm_son.newName}}</span></h3>
+<h3 ng-model="message">Message from my brother: {{vm_son.brotherMessage}}</span></h3>
+<h3 ng-model="message">Message from my cousin: {{vm_son.cousinMessage}}</span></h3>
 
-<div id="son">
-    <h2>This is the son1 component</h2>
-    <h3 ng-model="message">Message from my father: {{vm_son.newName}}</span></h3>
-    <h3 ng-model="message">Message from my brother: {{vm_son.brotherMessage}}</span></h3>
-    <h3 ng-model="message">Message from my cousin: {{vm_son.cousinMessage}}</span></h3>
+<form name="messageForm">
+    <Label>Message to my father:
+        <input type="text" name="sonMessage"
+               ng-model="sonMessage" />
 
-    <form name="messageForm">
-        <Label>Message to my father:
-            <input type="text" name="sonMessage"
-                   ng-model="sonMessage" />
-
-        </Label>
-        <button class="btn-primary" ng-click="vm_son.sendMessage(sonMessage)">Send</button>
-    </form>
-</div>
+    </Label>
+    <button class="btn-primary" ng-click="vm_son.sendMessage(sonMessage)">Send</button>
+</form>

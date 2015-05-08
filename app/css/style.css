@@ -1,3 +1,9 @@
+
+body{
+    margin: 16px;
+    oveerflow: hidden;
+}
+
 h1,h2,h3{
     font-weight: bold;
 }
@@ -24,7 +30,7 @@ i{
 }
 
 img{
-    width: 50%;
+    width: 40%;
 
 }
 
@@ -32,7 +38,13 @@ footer{
     background-color: #b3c4c7;
     border-top-style: solid;
     border-top-color: #999999;
+
+
+
+
 }
+
+
 
 .col-sm-6{
     border:solid;
@@ -56,6 +68,19 @@ footer{
     overflow: hidden;
 }
 
+#son1{
+    background-color: #00b3ee;
+   
+}
+
+#son2{
+    background-color: #337ab7;
+}
+
+#son3{
+    background-color: chartreuse;
+}
+
 
 @media(max-width: 767px){
     .logo{
@@ -66,9 +91,12 @@ footer{
 }
 
 @media(max-width: 992px){
-    #son, #son2{
+    #son1, #son2, #son3{
         border-top: solid;
+        padding-left: 10%;
     }
+
+
 
     #father2{
         border-top: solid;
