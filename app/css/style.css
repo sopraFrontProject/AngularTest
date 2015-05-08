@@ -1,5 +1,3 @@
-
-
 h1,h2,h3{
     font-weight: bold;
 }
@@ -30,31 +28,49 @@ img{
 
 }
 
+footer{
+    background-color: #b3c4c7;
+    border-top-style: solid;
+    border-top-color: #999999;
+}
+
 .col-sm-6{
     border:solid;
 }
 
 #father{
-    background-color: beige
+    background-color: cornflowerblue;
 }
 
 #father2{
-    background-color: #3c763d;
+    background-color: #449d44;
+    height: 100%;
 }
 
-#son{
-    background-color: honeydew;
+.row [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
-#son2{
-    background-color: #00b3ee;
+.row{
+    overflow: hidden;
 }
-#son3{
-    background-color: #a94442;
-}
+
 
 @media(max-width: 767px){
     .logo{
         display: none;
+    }
+
+
+}
+
+@media(max-width: 992px){
+    #son, #son2{
+        border-top: solid;
+    }
+
+    #father2{
+        border-top: solid;
     }
 }

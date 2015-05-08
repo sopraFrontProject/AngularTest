@@ -1,20 +1,14 @@
 
-<div id="father2">
-    <h1>This is my second father</h1>
+<h1>This is my second father</h1>
 
-    <form name="messageForm">
-        <Label>Message to my brother:
-            <input type="text" name="newMessage"
-                   ng-model="message" />
+<form name="messageForm">
+    <Label>Message to my brother:
+        <input type="text" name="newMessage"
+               ng-model="message" />
 
-        </Label>
-        <button class="btn-primary" ng-click="vm_father2.sendNephewMessage(message)">Send2Nephew</button>
+    </Label>
+    <button class="btn-primary" ng-click="vm_father2.sendNephewMessage(message)">Send2Nephew</button>
 
-    </form>
+</form>
 
-
-
-
-
-   <ip-third-son-directive></ip-third-son-directive>
-</div>
+<ip-third-son-directive></ip-third-son-directive>
