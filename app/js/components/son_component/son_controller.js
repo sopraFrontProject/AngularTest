@@ -10,9 +10,9 @@ define([
         var vm_son = this;
         vm_son.newName = "";
         vm_son.brotherMessage = "";
+        vm_son.cousinMessage = "";
 
         $scope.$on("myFatherMessage", function(data,message) {
-
             vm_son.newName = message;
             console.log("Son: I recieved a message from my father");
 
@@ -21,6 +21,10 @@ define([
         $scope.$on("myBrotherMessage", function(data,message) {
             vm_son.brotherMessage = message;
 
+        });
+
+        $scope.$on("myCousinMessage", function(data,message){
+           vm_son.cousinMessage = message;
         });
 
         vm_son.sendMessage = function(message){
@@ -32,7 +36,8 @@ define([
 
 
     sonController.$inject = [
-        '$scope'
+        '$scope',
+        'ipFatherFactory'
     ];
 
 

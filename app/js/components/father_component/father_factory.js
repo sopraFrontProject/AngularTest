@@ -6,7 +6,7 @@ define([
 ], function(app) {
     'use strict';
 
-    function fatherFactory(){
+    function fatherFactory($rootScope){
 
         /*return {
             sendMessage: function(scope, message) {
@@ -23,24 +23,17 @@ define([
         return factory;
 
 
-        function sendMessage(scope,message){
-
-             scope.$broadcast("MyFatherMessage",message);
+        function sendMessage(message){
+            $rootScope.$broadcast("myFatherMessage",message);
              return message;
         }
 
-
-        function setData(objeto){
-
-            factory.datosPersona = objeto;
-
-        }
 
 
 
     }
 
-    fatherFactory.$inject = [];
+    fatherFactory.$inject = ['$rootScope'];
 
     return app.factory('ipFatherFactory', fatherFactory);
 

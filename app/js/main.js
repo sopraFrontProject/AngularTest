@@ -98,6 +98,9 @@ require([
     "components/info_form_component/info_form_directive",
     "components/info_form_component/info_form_factory",
 
+    "components/secondFather_component/secondFather_controller",
+    "components/secondFather_component/secondFather_directive",
+
     "components/secondSon_component/secondSon_controller",
     "components/secondSon_component/secondSon_directive",
 
@@ -106,6 +109,9 @@ require([
 
     "components/tasks_component/tasks_controller",
     "components/tasks_component/tasks_directive",
+
+    "components/thirdSon_component/thirdSon_controller",
+    "components/thirdSon_component/thirdSon_directive",
 
     "comComponents/footer/footer_directive",
     "comComponents/footer/footer_controller",

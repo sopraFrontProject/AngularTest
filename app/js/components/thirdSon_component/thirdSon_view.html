@@ -1,0 +1,14 @@
+
+<div id="son3">
+    <h2>This is my third son</h2>
+
+    <form name="messageForm">
+        <Label>Message to my brother:
+            <input type="text" name="newMessage"
+                   ng-model="message" />
+
+        </Label>
+        <button class="btn-primary" ng-click="vm_son3.sendCousinMessage(message)">Send2Cousin</button>
+        <button class="btn-primary" ng-click="vm_son3.sendUncleMessage(message)">Send2Uncle</button>
+    </form>
+</div>

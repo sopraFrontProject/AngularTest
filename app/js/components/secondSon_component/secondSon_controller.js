@@ -9,6 +9,9 @@ define([
     function secondSonController($scope,$rootScope) {
         var vm_son2 = this;
         vm_son2.newName = "";
+        vm_son2.cousinMessage ="";
+        vm_son2.uncleMessage ="";
+
         $scope.$on("myFatherMessage", function(data,message) {
             vm_son2.newName = message;
 
@@ -23,6 +26,14 @@ define([
             $rootScope.$broadcast("myBrotherMessage", message);
 
         }
+
+        $scope.$on("myCousinMessage", function(data,message){
+            vm_son2.cousinMessage = message;
+        });
+
+        $scope.$on("myUncleMessage", function(data,message){
+            vm_son2.uncleMessage = message;
+        });
 
     }
 

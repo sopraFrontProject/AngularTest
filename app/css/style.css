@@ -38,12 +38,19 @@ img{
     background-color: beige
 }
 
+#father2{
+    background-color: #3c763d;
+}
+
 #son{
     background-color: honeydew;
 }
 
 #son2{
     background-color: #00b3ee;
+}
+#son3{
+    background-color: #a94442;
 }
 
 @media(max-width: 767px){
