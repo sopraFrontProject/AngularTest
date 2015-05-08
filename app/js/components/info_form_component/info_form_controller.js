@@ -8,7 +8,6 @@ define([
 
     function infoFormController($scope, ipInfoFormFactory) {
         var vm_infoForm = this;
-        //vm_infoForm.userName = "Jonh Doe";
         vm_infoForm.tareas = [];
 
 
@@ -23,7 +22,6 @@ define([
 
 
         vm_infoForm.getTareas = function(idFuncion) {
-            debugger;
             vm_infoForm.tareas = ipInfoFormFactory.getTareas(idFuncion);
         }
 

@@ -10,8 +10,11 @@ define([
         var vm_son = this;
         vm_son.newName = "";
         vm_son.brotherMessage = "";
+
         $scope.$on("myFatherMessage", function(data,message) {
+
             vm_son.newName = message;
+            console.log("Son: I recieved a message from my father");
 
         });
 

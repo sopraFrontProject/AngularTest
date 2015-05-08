@@ -83,6 +83,7 @@ require([
 
     "components/father_component/father_controller",
     "components/father_component/father_directive",
+    "components/father_component/father_factory",
 
     "components/form_component/form_controller",
     "components/form_component/form_directive",
