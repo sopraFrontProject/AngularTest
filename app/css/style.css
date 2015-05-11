@@ -1,7 +1,7 @@
 
 body{
     margin: 16px;
-    oveerflow: hidden;
+
 }
 
 h1,h2,h3{
@@ -39,11 +39,13 @@ footer{
     border-top-style: solid;
     border-top-color: #999999;
 
-
-
-
 }
 
+.main-wrapper{
+    width: 1024px;
+    height: 760px;
+
+}
 
 
 .col-sm-6{
@@ -70,16 +72,22 @@ footer{
 
 #son1{
     background-color: #00b3ee;
+    margin-left: 3%;
+
+
    
 }
 
 #son2{
     background-color: #337ab7;
+    margin-left: 1%;
+    align-content: center;
 }
 
 #son3{
     background-color: chartreuse;
 }
+
 
 
 @media(max-width: 767px){
@@ -97,8 +105,13 @@ footer{
     }
 
 
-
     #father2{
         border-top: solid;
     }
+
+    #son1, #son2{
+        margin-left:2%;
+        margin-right: 2%;
+    }
+
 }
